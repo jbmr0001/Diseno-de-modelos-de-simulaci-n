@@ -1,0 +1,11 @@
+volt_max_bateria,120
+volt_max_celulas,15
+intensidad,400
+velocidad_max,180
+potencia_motor,48
+temperatura_max,180
+peso,100
+capacidad,200
+ace_Lateral,9
+fuerzaRefrigerante,5
+cargasRefrigerante,5

@@ -1,0 +1,6 @@
+rutaCircuito=Circuito.csv;
+rutaMotoyBMS=MotoBMS.csv;
+aceleracionLateral=9;
+nPilotos=40;
+numVueltas=6;
+

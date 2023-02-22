@@ -1,0 +1,53 @@
+MEJOR PILOTO  1 ,,,,,,,,,,
+TIEMPO: ,"954,28",,,,,,,,,
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,,TIEMPO,,,VoltajeMax
+"87,02","77,02","85,18","42,59",,,MEJOR PILOTO  1 ,"954,28",,MEJOR PILOTO  1 ,"85,18"
+MEJOR PILOTO  2 ,,,,,,MEJOR PILOTO  2 ,"974,82",,MEJOR PILOTO  2 ,"72,94"
+TIEMPO: ,"974,82",,,,,MEJOR PILOTO  3 ,"978,78",,MEJOR PILOTO  3 ,"74,13"
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,MEJOR PILOTO  4 ,"985,22",,MEJOR PILOTO  4 ,"73,06"
+"111,77","101,77","72,94","36,47",,,MEJOR PILOTO  5 ,"985,44",,MEJOR PILOTO  5 ,"78,55"
+MEJOR PILOTO  3 ,,,,,,MEJOR PILOTO  6 ,"988,28",,MEJOR PILOTO  6 ,"82,67"
+TIEMPO: ,"978,78",,,,,MEJOR PILOTO  7 ,"989,18",,MEJOR PILOTO  7 ,"76,5"
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,MEJOR PILOTO  8 ,"989,22",,MEJOR PILOTO  8 ,"78,78"
+"126,05","116,05","74,13","37,06",,,MEJOR PILOTO  9 ,"989,93",,MEJOR PILOTO  9 ,"79,36"
+MEJOR PILOTO  4 ,,,,,,MEJOR PILOTO  10 ,"990,84",,MEJOR PILOTO  10 ,"66,46"
+TIEMPO: ,"985,22",,,,,,,,,
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,,TemperaturaSegura,,,VoltajeReactivacion
+"127,92","117,92","73,06","36,53",,,"87,02","77,02",,"87,02","42,59"
+MEJOR PILOTO  5 ,,,,,,"111,77","101,77",,"111,77","36,47"
+TIEMPO: ,"985,44",,,,,"126,05","116,05",,"126,05","37,06"
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,"127,92","117,92",,"127,92","36,53"
+"174,7","164,7","78,55","39,28",,,"174,7","164,7",,"174,7","39,28"
+MEJOR PILOTO  6 ,,,,,,"105,7","95,7",,"105,7","41,34"
+TIEMPO: ,"988,28",,,,,"126,8","116,8",,"126,8","38,25"
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,"145,64","135,64",,"145,64","39,39"
+"105,7","95,7","82,67","41,34",,,"147,33","137,33",,"147,33","39,68"
+MEJOR PILOTO  7 ,,,,,,"160,67","150,67",,"160,67","33,23"
+TIEMPO: ,"989,18",,,,,,,,,
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,,,,,
+"126,8","116,8","76,5","38,25",,,,,,,
+MEJOR PILOTO  8 ,,,,,,,,,,
+TIEMPO: ,"989,22",,,,,,,,,
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,Mejores configuraciones BMS,VoltajeReactivacion,VoltajeMax,Temperatura Segura,TemperaturaMax
+"145,64","135,64","78,78","39,39",,,MEJOR PILOTO 1,"42,59","85,18","38,51","43,51"
+MEJOR PILOTO  9 ,,,,,,MEJOR PILOTO 2,"36,47","72,94","50,885","55,885"
+TIEMPO: ,"989,93",,,,,MEJOR PILOTO 3,"37,06","74,13","58,025","63,025"
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,MEJOR PILOTO 4,"36,53","73,06","58,96","63,96"
+"147,33","137,33","79,36","39,68",,,MEJOR PILOTO 5,"39,28","78,55","82,35","87,35"
+MEJOR PILOTO  10 ,,,,,,MEJOR PILOTO 6,"41,34","82,67","47,85","52,85"
+TIEMPO: ,"990,84",,,,,MEJOR PILOTO 7,"38,25","76,5","58,4","63,4"
+TemperaturaMax,TemperaturaSegura,VoltajeMax,VoltajeReactivacion,,,MEJOR PILOTO 8,"39,39","78,78","67,82","72,82"
+"160,67","150,67","66,46","33,23",,,MEJOR PILOTO 9,"39,68","79,36","68,665","73,665"
+,,,,,,MEJOR PILOTO 10,"33,23","66,46","75,335","80,335"
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,"77,02","87,02"
+,,,,,,,,,"101,77","111,77"
+,,,,,,,,,"116,05","126,05"
+,,,,,,,,,"117,92","127,92"
+,,,,,,,,,"164,7","174,7"
+,,,,,,,,,"95,7","105,7"
+,,,,,,,,,"116,8","126,8"
+,,,,,,,,,"135,64","145,64"
+,,,,,,,,,"137,33","147,33"
+,,,,,,,,,"150,67","160,67"

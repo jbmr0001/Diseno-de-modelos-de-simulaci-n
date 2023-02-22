@@ -1,0 +1,63 @@
+Define equivalent circuit parameters
+
+tau1 = 40;
+R1 = .005;
+C1 = tau1/R1;
+R0 = 0.01;
+
+Calculate continuous and discrete state-space matrices
+
+% A = -1/tau1;
+% B = 1/C1;
+% C = -1;
+% D = -R0;
+% 
+% sys = ss(A,B,C,D)
+% 
+% Ts = 0.1;
+% sysd = c2d(sys,Ts)
+
+% sim(gcs)
+
+Write the equivalent circuit as a continuous time transfer function
+
+
+a_c = R0 * tau1;
+b_c = R0 + R1;
+c_c = tau1;
+d_c = 1;
+sys = tf([a_c,b_c],[c_c,d_c])
+
+Discretize with sampling time Ts
+
+Ts = 1e-1;
+sysd = c2d(sys,Ts)
+temp1 = sysd.Numerator{1};
+temp2 = sysd.Denominator{1};
+a = temp1(1)
+b = temp1(2)
+c = temp2(1)
+d = temp2(2)
+
+sim(gcs)
+
+Find inverse Laplace transform of the first order TF to find analytical discrete equivalent
+
+The transfer function of an equivalent circuit with one time constant is
+
+Let's for now simplify this correcting for OCV and call the three tf variables a, b, c, let's calculate the inverse Laplace transform of 
+
+
+syms s t a b c h
+F = (a*s+b)/(c*s+1)/s
+HiL = ilaplace(F,s,t)
+
+Now, let's calculate the z-transform of
+
+
+syms Ts k z
+H = (1-1/z)*ztrans(b+(a-b*c)/c*exp(-k*Ts/c),k,z)
+
+syms R0 R1 C1
+simplify(subs(H,[a,b,c],[R0*R1*C1,R0+R1,R1*C1]))
+
